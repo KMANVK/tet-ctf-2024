@@ -6,8 +6,8 @@ from impacket.dpapi import DPAPI_BLOB
 from binascii import unhexlify
 from Cryptodome.Cipher import AES
 
-local_state = 'Local State'
-login_data = 'Login Data'
+local_state = 'Local State'  # AppData\Local\Google\Chrome\User Data\Local State
+login_data = 'Login Data' # AppData\Local\Google\Chrome\User Data\Default\Login Data
 masterkey = unhexlify("f85918231d3792277938e9a62b02ac68d229b28eb005131965b6c579fb87a93573ee533ca2f10501f1b012ef3c64d08b7cfccb53e0adb97844f249366ed93b17")
 
 def get_encrypted_key(localstate):
