@@ -12,7 +12,7 @@
 
 + Thấy nhiều process chrome.exe thì dump file database history nó ra và lụm flag2. 
 
-+ Cách đúng của bài này là recover the password saved in Chrome nhưng lại chẳng thể lấy được masterkey từ file raw? (trong khi author lại lấy master của máy ????)
++ Cách đúng thì ...
 
 
 * NOTE : Rating : 74.41 => Bài này nếu nói rating 20 thì hơi nhiều.
